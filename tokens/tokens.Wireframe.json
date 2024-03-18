@@ -3,7 +3,7 @@
     "primary": {
       "50": {
         "$type": "color",
-        "$value": "#f3e6fe",
+        "$value": "#f4f3f4",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -19,7 +19,7 @@
       },
       "500": {
         "$type": "color",
-        "$value": "#f44900",
+        "$value": "#837486",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -33,7 +33,7 @@
       },
       "900": {
         "$type": "color",
-        "$value": "#4f0095",
+        "$value": "#575058",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -49,7 +49,7 @@
     "secondary": {
       "50": {
         "$type": "color",
-        "$value": "#fdf0e6",
+        "$value": "#eaf2f4",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -63,7 +63,7 @@
       },
       "500": {
         "$type": "color",
-        "$value": "#eb6a01",
+        "$value": "#79a0a0",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -77,7 +77,7 @@
       },
       "900": {
         "$type": "color",
-        "$value": "#8f4101",
+        "$value": "#435e5e",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -339,7 +339,7 @@
     "copy": {
       "Copy 0": {
         "$type": "string",
-        "$value": "Senectus et netus et malesuada fames ac turpis egestas sed.lue",
+        "$value": "Senectus et netus et malesuada fames ac turpis egestas sed.",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -557,7 +557,7 @@
       },
       "select box": {
         "$type": "string",
-        "$value": "Select language",
+        "$value": "Select value",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -573,7 +573,7 @@
     "textarea": {
       "textarea": {
         "$type": "string",
-        "$value": "Type your message here",
+        "$value": "Placeholder text",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1054,7 +1054,7 @@
   "border-radius": {
     "button-radius": {
       "$type": "number",
-      "$value": "{Spacing Scale.40}",
+      "$value": "{Spacing Scale.0}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -1068,7 +1068,7 @@
     },
     "card-radius": {
       "$type": "number",
-      "$value": "{Spacing Scale.4}",
+      "$value": "{Spacing Scale.0}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -1082,7 +1082,7 @@
     },
     "input-fields": {
       "$type": "number",
-      "$value": "{Spacing Scale.2}",
+      "$value": "{Spacing Scale.0}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -1096,7 +1096,7 @@
     },
     "select-options": {
       "$type": "number",
-      "$value": "{Spacing Scale.2}",
+      "$value": "{Spacing Scale.0}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -1110,7 +1110,7 @@
     },
     "accordion": {
       "$type": "number",
-      "$value": "{Spacing Scale.2}",
+      "$value": "{Spacing Scale.0}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -1125,7 +1125,7 @@
   },
   "BlockType": {
     "$type": "boolean",
-    "$value": true,
+    "$value": false,
     "$description": "",
     "$extensions": {
       "com.figma": {
