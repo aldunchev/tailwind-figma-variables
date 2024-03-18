@@ -19,7 +19,7 @@
       },
       "500": {
         "$type": "color",
-        "$value": "#8200f4",
+        "$value": "#f44900",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -684,7 +684,7 @@
     },
     "4": {
       "$type": "number",
-      "$value": 40,
+      "$value": 16,
       "$description": "",
       "$extensions": {
         "com.figma": {
