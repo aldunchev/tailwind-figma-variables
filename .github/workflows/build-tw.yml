@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   push:
-    paths: ["tokens"]
+    paths: ["tokens/**"]
     branches: main
 jobs:
   build_tw:
