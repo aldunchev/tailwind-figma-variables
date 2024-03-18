@@ -1,7 +1,18 @@
-export default function Button(props: any) {
-  const {type, text, clickHandler} = props;
+import { MouseEventHandler } from 'react';
+
+interface ButtonProps {
+  type: "submit" | "button",
+  text: string,
+  variant: "primary" | "secondary",
+}
+
+export default function Button(props: ButtonProps) {
+  const {type, text, variant} = props;
+  const buttonClasses = variant === 'primary' ?
+  'text-neutral-0 bg-primary-500' :
+  'text-primary-500 border-primary-500';
 
   return(
-    <button type={type} onClick={clickHandler} className='border text-white py-2 px-4 flex items-center bg-indigo-600 rounded shadow'>{text}</button>
+    <button type={type} className={`${buttonClasses} justify-center px-6 py-4 border-2 border-solid rounded-[160px] max-md:px-5`}>{text}</button>
   );
 }
