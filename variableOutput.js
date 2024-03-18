@@ -3,7 +3,7 @@ module.exports = {
     "colors": {
       "primary": {
         "50": "#f3e6fe",
-        "500": "#8200f4",
+        "500": "#f44900",
         "900": "#4f0095"
       },
       "secondary": {
@@ -40,7 +40,7 @@ module.exports = {
       "1": "4px",
       "2": "8px",
       "3": "12px",
-      "4": "40px",
+      "4": "16px",
       "5": "20px",
       "6": "24px",
       "8": "32px",
@@ -66,7 +66,7 @@ module.exports = {
     },
     "borderRadius": {
       "button-radius": "160px",
-      "card-radius": "40px",
+      "card-radius": "16px",
       "input-fields": "8px",
       "select-options": "8px",
       "accordion": "8px"
