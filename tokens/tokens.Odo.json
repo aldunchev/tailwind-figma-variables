@@ -19,7 +19,7 @@
       },
       "500": {
         "$type": "color",
-        "$value": "#f44900",
+        "$value": "#8200f4",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1068,7 +1068,7 @@
     },
     "card-radius": {
       "$type": "number",
-      "$value": 4,
+      "$value": "{Spacing Scale.4}",
       "$description": "",
       "$extensions": {
         "com.figma": {
