@@ -40,7 +40,7 @@ module.exports = {
       "1": "4px",
       "2": "8px",
       "3": "12px",
-      "4": "16px",
+      "4": "40px",
       "5": "20px",
       "6": "24px",
       "8": "32px",
@@ -66,7 +66,7 @@ module.exports = {
     },
     "borderRadius": {
       "button-radius": "160px",
-      "card-radius": "16px",
+      "card-radius": "40px",
       "input-fields": "8px",
       "select-options": "8px",
       "accordion": "8px"
