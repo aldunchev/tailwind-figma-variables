@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --container: 1360px;
+}
+
+@layer utilities {
+  .container {
+    max-width: var(--container);
+
+    @apply mx-auto;
+  }
+}
