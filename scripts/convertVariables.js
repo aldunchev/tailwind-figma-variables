@@ -81,11 +81,14 @@ if (data[SPACING_FIELD]) {
 if (data[BORDER_RADIUS_FIELD]) {
   BORDER_RADIUS_ORDER.forEach(orderKey => {
     if (data[BORDER_RADIUS_FIELD][orderKey]) {
-      const borderRadiusValue = data[BORDER_RADIUS_FIELD][orderKey]["$value"];
-      const borderRadiusSplit = borderRadiusValue.split('.');
-      const borderRadiusMappingValue = borderRadiusSplit[borderRadiusSplit.length - 1].replace('}', '');
-      const borderRadiusPixelValue = data[SPACING_FIELD][borderRadiusMappingValue]["$value"];
-      processedData.theme.borderRadius[orderKey] = `${borderRadiusPixelValue}px`;
+      let borderRadiusValue = data[BORDER_RADIUS_FIELD][orderKey]["$value"];
+
+      if (typeof borderRadiusValue === 'string') {
+        const borderRadiusSplit = borderRadiusValue.split('.');
+        const borderRadiusMappingValue = borderRadiusSplit[borderRadiusSplit.length - 1].replace('}', '');
+        borderRadiusValue = data[SPACING_FIELD][borderRadiusMappingValue]["$value"];
+      }
+      processedData.theme.borderRadius[orderKey] = `${borderRadiusValue}px`;
     }
   });
 }
