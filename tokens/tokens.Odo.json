@@ -684,7 +684,7 @@
     },
     "4": {
       "$type": "number",
-      "$value": 16,
+      "$value": 40,
       "$description": "",
       "$extensions": {
         "com.figma": {
