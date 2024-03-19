@@ -3,7 +3,7 @@ module.exports = {
     "colors": {
       "primary": {
         "50": "#f3e6fe",
-        "500": "#f44900",
+        "500": "#8200f4",
         "900": "#4f0095"
       },
       "secondary": {
