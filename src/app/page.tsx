@@ -1,10 +1,12 @@
 // import Image from "next/image";
 import Card from '@/components/card/Card';
+import Header from '@/components/header/Header';
 import HeroSection from '@/components/hero/Hero';
 
 export default function Home() {
   return (
     <main>
+      <Header />
       <HeroSection
         headline="Catchy headline"
         description="TestSenectus et netus et malesuada fames ac turpis egestas sed. Viverra tellus in hac habitasse platea dictumst vestibulum. Nibh cras pulvinar mattis nunc sed blandit libero volutpat sed."

@@ -1,4 +1,4 @@
-import Button from '../button/button';
+import Button from '@/components/button/button';
 
 interface HeroSectionProps {
   headline: string;
@@ -19,7 +19,7 @@ export default function HeroSection({
 }: HeroSectionProps) {
   return (
     <section className="flex flex-col items-center py-12 bg-white max-md:px-5">
-      <div className="w-full max-md:max-w-full border-b-2 border-b-primary-50 shadow-md">
+      <div className="w-full max-md:max-w-full border-b-2 border-neutral-200 shadow-md">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <img
