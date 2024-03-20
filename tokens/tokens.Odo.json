@@ -3,7 +3,7 @@
     "primary": {
       "50": {
         "$type": "color",
-        "$value": "#f3e6fe",
+        "$value": "#f5dfdf",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -19,7 +19,7 @@
       },
       "500": {
         "$type": "color",
-        "$value": "#8200f4",
+        "$value": "#f92323",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -49,7 +49,7 @@
     "secondary": {
       "50": {
         "$type": "color",
-        "$value": "#fdf0e6",
+        "$value": "#f8fabe",
         "$description": "",
         "$extensions": {
           "com.figma": {
