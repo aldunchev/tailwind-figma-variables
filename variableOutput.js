@@ -2,9 +2,9 @@ module.exports = {
   "theme": {
     "colors": {
       "primary": {
-        "50": "#f3e6fe",
-        "500": "#8200f4",
-        "900": "#4f0095"
+        "50": "#c9e78a",
+        "500": "#54f750",
+        "900": "#46a7ad"
       },
       "secondary": {
         "50": "#fdf0e6",
